@@ -1,7 +1,17 @@
-# slsa-source-vsa-test
-Generate a SLSA V1.2 Source VSA for funsies
+# SLSA Source VSA Test
 
-All work and no play makes Jack a dull boy
+A test repository for generating SLSA V1.2 Source VSA (Verifiable Software Attestation) documents.
 
-## Testing Branch Workflow
-This commit should trigger the workflow on the feature branch.
+## Overview
+
+This repository demonstrates how to create and verify SLSA V1.2 Source VSA attestations for software supply chain security.
+
+## Features
+
+- Generate SLSA V1.2 Source VSA attestations
+- Verify attestation integrity
+- Test SLSA compliance workflows
+
+## Usage
+
+This is a test repository for exploring SLSA V1.2 Source VSA capabilities.
