@@ -2,7 +2,10 @@ name: "Create SLSA source VSA"
 
 on:
   push:
-    branches: ['*']
+    branches-ignore: []
+  pull_request:
+    types: [opened, synchronize, reopened]
+  create:
 
 jobs:
   compute_slsa_source:
