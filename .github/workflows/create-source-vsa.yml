@@ -1,7 +1,8 @@
 name: "Create SLSA source VSA"
 
 on:
-  workflow_call:
+  push:
+    branches: ['*']
 
 jobs:
   compute_slsa_source:
