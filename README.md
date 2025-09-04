@@ -20,3 +20,9 @@ More random content for testing purposes.
 
 ## Final Test Commit
 This should be the last test commit to verify workflow functionality.
+
+## New Test Commit 1
+Creating another test commit to trigger the SLSA workflow.
+
+## New Test Commit 2
+Second new test commit for workflow verification.
