@@ -2,7 +2,6 @@ name: "Create SLSA source VSA"
 
 on:
   push:
-    branches-ignore: []
   pull_request:
     types: [opened, synchronize, reopened]
   create:
