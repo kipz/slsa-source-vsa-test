@@ -1,0 +1,35 @@
+{
+  "version": "1.2",
+  "type": "source",
+  "buildType": "https://slsa.dev/build-types/v1.2/slsa",
+  "builder": {
+    "id": "https://github.com/actions/runner"
+  },
+  "invocation": {
+    "configSource": {
+      "uri": "git+https://github.com/example/slsa-source-vsa-test",
+      "digest": {
+        "sha1": "0000000000000000000000000000000000000000"
+      }
+    }
+  },
+  "metadata": {
+    "buildInvocationId": "test-build-123",
+    "buildStartedOn": "2024-01-01T00:00:00Z",
+    "buildFinishedOn": "2024-01-01T00:01:00Z",
+    "completeness": {
+      "parameters": true,
+      "environment": false,
+      "materials": false
+    },
+    "reproducible": false
+  },
+  "materials": [
+    {
+      "uri": "git+https://github.com/example/slsa-source-vsa-test",
+      "digest": {
+        "sha1": "0000000000000000000000000000000000000000"
+      }
+    }
+  ]
+}
