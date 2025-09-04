@@ -8,3 +8,6 @@ This is the first test commit to trigger the workflow.
 
 ## Test Commit 2
 This is the second test commit to trigger the workflow again.
+
+## Testing Branch Workflow
+This commit should trigger the workflow on the feature branch.
