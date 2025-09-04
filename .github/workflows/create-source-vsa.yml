@@ -1,0 +1,14 @@
+name: "Create SLSA source VSA"
+
+on:
+  workflow_call:
+
+jobs:
+  compute_slsa_source:
+    permissions:
+      contents: write # needed for storing attestations in the repo
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+    - name: prov
+      uses: slsa-framework/slsa-source-poc/actions/slsa_with_provenance@main
