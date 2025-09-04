@@ -5,3 +5,6 @@ All work and no play makes Jack a dull boy
 
 ## Test Commit 1
 This is the first test commit to trigger the workflow.
+
+## Test Commit 2
+This is the second test commit to trigger the workflow again.
