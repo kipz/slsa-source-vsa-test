@@ -35,3 +35,6 @@ Another round of test commits to verify workflow functionality.
 
 ## Round 3 Test Commit 2
 Second commit in this round for comprehensive testing.
+
+## Final Round Test
+This should be the final test commit to thoroughly verify the SLSA workflow.
